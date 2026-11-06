@@ -1,0 +1,22 @@
+
+{
+  "name": "proposal-writer-marketplace",
+  "interface": {
+    "displayName": "Proposal Writer"
+  },
+  "plugins": [
+    {
+      "name": "proposal-writer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GeorgeHu6/proposal-writer.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
