@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "dhxxhch@gmail.com",
+    "name": "George Hu"
+  },
+  "description": "按重大专项目录和章节字数生成可编辑Word，采用正面直接的项目叙述，实际信息及填写建议置于【】内，并回读终稿核查语体。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Education & Research",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "项目名称：［填写项目名称］。请生成一份完整的科技项目申报书正文初稿，不含经费预算和人员组成，明确标记研究假设、建议指标和待补事实。",
+          "请根据我提供的项目名称、申报指南和前期基础，撰写符合指南目录与字数要求的申报书正文。",
+          "请审查并修改这份申报书正文，重点检查问题、目标、任务、技术路线、创新点、考核指标和进度是否一致。"
+        ],
+        "developerName": "George Hu",
+        "displayName": "项目申报书写作助手",
+        "logo": "./assets/icon.svg",
+        "longDescription": "依据既定四部分目录、章节字数和清晰标题层级生成可编辑Word。正文直接叙述研究对象、方法、作用、适用范围与实施程序，实际信息缺口及填写建议完整置于【】内。生成前检查工作稿，生成后回读正文、表格、页眉页脚及脚注尾注文字，核查限制套话、否定式指令、自述提醒和免责句式。",
+        "shortDescription": "按重大专项目录生成可编辑申报书Word"
+      }
+    }
+  },
+  "keywords": [
+    "项目申报书",
+    "科研项目",
+    "技术路线",
+    "研究内容",
+    "可行性论证",
+    "中文写作"
+  ],
+  "name": "proposal-writer",
+  "version": "1.4.0"
+}

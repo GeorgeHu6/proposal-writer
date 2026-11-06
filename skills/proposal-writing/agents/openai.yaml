@@ -1,0 +1,6 @@
+interface:
+  display_name: 项目申报书写作助手
+  short_description: 直接叙述项目并回读核查申报书Word
+  default_prompt: 按既定四部分目录、章节字数和标题层级生成可编辑Word。正式正文用正面、直接的科研项目叙述，实际信息缺口、填写建议与核实方法完整放入【】。完成工作稿检查和实际Word终稿回读核查后交付文件。
+policy:
+  allow_implicit_invocation: true
